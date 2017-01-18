@@ -1,0 +1,25 @@
+{
+  "Application": {
+    "Name": "siteshot-worker",
+    "Debug": true
+  },
+  "Azure": {
+    "Connection": {
+      "AccountName": "",
+      "AccountKey": ""
+    },
+    "Queues": {
+      "Scans": "scansdev",
+      "Updates": "updatesdev"
+    },
+    "Storage": {
+      "Screenshots": "screenshotsdev"
+    }
+  },
+  "Raygun": {
+    "Key": ""
+  },
+  "Storage": {
+    "Folder": "sites"
+  }
+}

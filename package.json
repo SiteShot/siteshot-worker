@@ -1,0 +1,32 @@
+{
+  "name": "siteshot-worker",
+  "version": "1.0.0",
+  "description": "SiteShot screenshot worker",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiteShot/siteshot-worker.git"
+  },
+  "author": "dwnz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SiteShot/siteshot-worker/issues"
+  },
+  "homepage": "https://github.com/SiteShot/siteshot-worker#readme",
+  "dependencies": {
+    "async": "^2.1.4",
+    "config": "^1.24.0",
+    "git-rev": "^0.2.1",
+    "gm": "^1.23.0",
+    "image-diff": "^1.6.3",
+    "raygun": "^0.9.0",
+    "siteshot-azure-queue-provider": "^1.0.3",
+    "siteshot-azure-storage-provider": "^1.0.1",
+    "siteshot-logger": "^1.0.0",
+    "siteshot-utils": "^1.0.1",
+    "webshot": "^0.18.0"
+  }
+}
